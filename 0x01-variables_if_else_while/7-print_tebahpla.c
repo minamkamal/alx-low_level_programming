@@ -3,21 +3,21 @@
 /* more headers goes there */
 #include <stdio.h>
 /**
- * main - prints the lowercase alphabet in reverse,
+ * main - Prints numbers from 0 to 9.
  *
  * Return: Always 0 (Success)
  */
 
 /* betty style doc for function main goes there */
+
 int main(void)
 {
-	char ch;
+	int i;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (i = 122; i > 96; i--)
 	{
-		putchar(ch);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
 }
-
