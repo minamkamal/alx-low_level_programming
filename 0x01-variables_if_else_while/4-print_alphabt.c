@@ -12,16 +12,16 @@
 
 int main(void)
 {
-	char low, e, q;
+        char i, e, q;
 
-	e = 'e';
-	q = 'q';
+        e = 'e';
+        q = 'q';
 
-	for (low = 'a'; low <= 'z'; low++)
-	{
-	if (low != e && low != q)
-	putchar(low);
-	}
-	putchar('\n');
-	return (0);
+        for (i = 'a'; i <= 'z'; i++)
+        {
+        if (i != e && i != q)
+        putchar(i);
+        }
+        putchar('\n');
+        return (0);
 }
