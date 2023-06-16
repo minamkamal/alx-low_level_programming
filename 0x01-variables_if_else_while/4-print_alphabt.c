@@ -13,10 +13,10 @@
 int main(void)
 {
 	char i, e, q;
-	
+
 	e = 'e';
 	q = 'q';
-	
+
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (i != e && i != q)
