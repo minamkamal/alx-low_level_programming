@@ -1,9 +1,12 @@
 #include "main.h"
-#include <unistd.h>
-
+#include <unistd>
 /**
- * write _putchar
- * Return: 0
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ * @parameter: describe the parameter
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
